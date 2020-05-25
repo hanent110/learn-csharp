@@ -6,7 +6,8 @@ namespace learn_csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LinqTest linqTest = new LinqTest();
+            linqTest.TestFirstOrDefault();
         }
     }
 }
